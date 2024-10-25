@@ -1,3 +1,5 @@
+#include QMK_KEYBOARD_H
+
 #define LAYOUT_wrapper_split_3x5_3(...) LAYOUT_split_3x5_3(__VA_ARGS__)
 #define KC_CPYP LGUI(LSFT(LCTL(KC_4)))  // Copy portion of screen
 #define KC_CPYW LGUI(LSFT(LCTL(KC_3)))  // Copy whole screen
