@@ -105,9 +105,9 @@ KC_LCBR, RGB_SAD, KC_CPYW, KC_CPYP,   RGB_SAD,             KC_RCBR, KC_HOME, KC_
   ),
 
   [3] = LAYOUT_split_3x5_3(
-KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC,              KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN_, 
+KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC,              KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, 
 RGB_VAI, RGB_HUI, RGB_SAI, RGB_MOD, RGB_VAI,              KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_EQL, 
-RGB_VAD, RGB_HUD, RGB_SAD, RGB_RMOD, RGB_VAD,              _______, KC_LEFT, KC_DOWN, KC_UP,   KC_QUOT_, 
+RGB_VAD, RGB_HUD, RGB_SAD, RGB_RMOD, RGB_VAD,              _______, KC_LEFT, KC_DOWN, KC_UP,   KC_QUOT, 
                                 LT(1, KC_LCTL), KC_LALT, KC_DEL,  MT(MOD_MEH, KC_SPC), KC_EQL, KC_PLUS
 
   )
