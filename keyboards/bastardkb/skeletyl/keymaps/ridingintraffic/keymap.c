@@ -18,6 +18,7 @@
 
 #define MASTER_LEFT
 
+const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [0] = LAYOUT_split_3x5_3(
    _________________QWERTY_L1_________________,              _________________QWERTY_R1_________________,  \
