@@ -10,7 +10,7 @@
         ["bastardkb/scylla", "vendor"],
         ["bastardkb/tbkmini", "vendor"],
         ["bastardkb/skeletyl", "vendor"],
-        ["bastardkb/skeletyl", "ridingintrafic"]
+        ["bastardkb/skeletyl", "ridingintraffic"]
 
     ]
 }
