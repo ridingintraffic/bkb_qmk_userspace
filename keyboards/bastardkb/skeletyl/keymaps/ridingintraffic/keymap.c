@@ -29,7 +29,7 @@
 #define _________________QWERTY_R3_________________       KC_N,    KC_M,                KC_COMM, KC_DOT,  MT(MOD_LSFT, KC_SLSH)
 
 #define _________________RAISE_L1__________________       QK_GESC, KC_VOLD, KC_VOLU, KC_LCBR, KC_LBRC
-#define _________________RAISE_L2__________________       KC_GRV, KC_NO, KC_NO, KC_NO, KC_SCLN
+#define _________________RAISE_L2__________________       KC_GRV, KC_NO, KC_NO, KC_NO, KC_DQT
 #define _________________RAISE_L3__________________       KC_TILDE, _______, KC_CPYW, KC_CPYP, KC_LBRC
 
 #define _________________RAISE_R1__________________       KC_RBRC, KC_RCBR, KC_NO, KC_NO, KC_MPLY
@@ -99,14 +99,14 @@ KC_TILDE, _______, KC_CPYW, KC_CPYP, KC_LBRC,             KC_RBRC, KC_MINUS, KC_
 
   [2] = LAYOUT_split_3x5_3(
 KC_1,    KC_2,    KC_3,    KC_4,    KC_5,            KC_6,    KC_7,    KC_8,    KC_9,    KC_0, 
-RGB_TOG, RGB_RMOD, RGB_MOD, RGB_M_P, RGB_SAI,             _______, KC_UNDS, KC_PLUS, KC_LCBR, KC_QUOT,  
+RGB_TOG, RGB_RMOD, RGB_MOD, RGB_M_P, RGB_SAI,             _______, KC_UNDS, KC_PLUS, KC_LCBR, KC_SCLN,  
 KC_LCBR, RGB_SAD, KC_CPYW, KC_CPYP,   RGB_SAD,             KC_RCBR, KC_HOME, KC_PGDN, KC_PGUP, KC_END, 
                                 LT(1, KC_LCTL), KC_LALT, KC_DEL,  MT(MOD_MEH, KC_SPC), KC_EQL, KC_PLUS
   ),
 
   [3] = LAYOUT_split_3x5_3(
 KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC,              KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, 
-RGB_VAI, RGB_HUI, RGB_SAI, RGB_MOD, RGB_VAI,              KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_EQL, 
+RGB_VAI, RGB_HUI, RGB_SAI, RGB_MOD, RGB_VAI,              KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_COLN, 
 RGB_VAD, RGB_HUD, RGB_SAD, RGB_RMOD, RGB_VAD,              _______, KC_LEFT, KC_DOWN, KC_UP,   KC_QUOT, 
                                 LT(1, KC_LCTL), KC_LALT, KC_DEL,  MT(MOD_MEH, KC_SPC), KC_EQL, KC_PLUS
 
