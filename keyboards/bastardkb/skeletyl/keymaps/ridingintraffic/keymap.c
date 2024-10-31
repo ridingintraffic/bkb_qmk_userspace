@@ -42,7 +42,7 @@
 
 #define _________________LOWER_R1__________________       ________________NUMBER_RIGHT_______________
 #define _________________LOWER_R2__________________       _______, KC_UNDS, KC_PLUS, KC_LCBR, KC_QUOT
-#define _________________LOWER_R3__________________       KC_RCBR, KC_HOME, KC_PGDN, KC_PGUP, KC_END
+#define _________________LOWER_R3__________________       KC_RCBR, KC_NO, KC_NO, KC_NO, KC_PIPE
 
 #define _________________ACTION_L1_________________       ________________SYMBOL_LEFT________________
 #define _________________ACTION_L2_________________       RGB_VAI, RGB_HUI, RGB_SAI, RGB_MOD, RGB_VAI
@@ -100,7 +100,7 @@ KC_TILDE, _______, KC_CPYW, KC_CPYP, KC_LBRC,             KC_RBRC, KC_MINUS, KC_
   [2] = LAYOUT_split_3x5_3(
 KC_1,    KC_2,    KC_3,    KC_4,    KC_5,            KC_6,    KC_7,    KC_8,    KC_9,    KC_0, 
 RGB_TOG, RGB_RMOD, RGB_MOD, RGB_M_P, RGB_SAI,             _______, KC_UNDS, KC_PLUS, KC_LCBR, KC_SCLN,  
-KC_LCBR, RGB_SAD, KC_CPYW, KC_CPYP,   RGB_SAD,             KC_RCBR, KC_HOME, KC_PGDN, KC_PGUP, KC_END, 
+KC_LCBR, RGB_SAD, KC_CPYW, KC_CPYP,   RGB_SAD,             KC_RCBR, KC_NO, KC_NO, KC_NO, KC_PIPE, 
                                 LT(1, KC_LCTL), KC_LALT, KC_DEL,  MT(MOD_MEH, KC_SPC), KC_EQL, KC_PLUS
   ),
 
