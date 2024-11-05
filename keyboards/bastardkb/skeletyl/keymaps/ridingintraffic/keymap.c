@@ -110,13 +110,12 @@ RGB_VAI, RGB_HUI, RGB_SAI, RGB_MOD, RGB_VAI,              KC_NO, KC_NO, KC_NO,  
 RGB_VAD, RGB_HUD, RGB_SAD, RGB_RMOD, RGB_VAD,              KC_NO, KC_NO, KC_NO, KC_NO,   KC_QUOT, 
                         LT(1, KC_LCTL), KC_LALT, KC_BSPC,  MT(MOD_MEH, KC_SPC), KC_EQL, KC_PLUS
 
-  )
+  ),
   [4] = LAYOUT_split_3x5_3(
 KC_NO, KC_NO,   KC_NO, KC_NO,  KC_NO,              KC_NO, KC_7, KC_8, KC_9, KC_RPRN, 
 KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,               KC_NO, KC_4, KC_5,   KC_6, KC_COLN, 
 KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,              KC_NO, KC_1, KC_2, KC_3,   KC_QUOT, 
                         KC_NO, KC_NO, KC_BSPC,  MT(MOD_MEH, KC_SPC), KC_DOT, KC_ENT
-
   )
 };
 
