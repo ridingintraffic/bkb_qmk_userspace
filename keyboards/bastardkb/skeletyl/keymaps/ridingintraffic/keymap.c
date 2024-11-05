@@ -99,7 +99,7 @@ KC_TILDE, KC_NO, KC_CPYW, KC_CPYP, KC_NO,             KC_NO, KC_MINUS, KC_EQL, K
 
   [2] = LAYOUT_split_3x5_3(
 KC_1,    KC_2,    KC_3,    KC_4,    KC_5,            KC_6,    KC_7,    KC_8,    KC_9,    KC_0, 
-RGB_TOG, RGB_RMOD, RGB_MOD, RGB_M_P, RGB_SAI,             KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,  
+RGB_TOG, RGB_RMOD, RGB_MOD, RGB_M_P, RGB_SAI,             KC_NO, KC_NO, KC_NO, KC_NO, KC_SCLN,  
 KC_NO, RGB_SAD, KC_NO, KC_NO,   RGB_SAD,             KC_NO, KC_NO, KC_NO, KC_NO, KC_PIPE, 
                         LT(1, KC_LCTL), KC_LALT, KC_BSPC,  MT(MOD_MEH, KC_SPC), KC_EQL, KC_PLUS
   ),
