@@ -22,7 +22,7 @@
 
 #define _________________QWERTY_L1_________________       KC_Q,    KC_W,  KC_E,    KC_R,                KC_T
 #define _________________QWERTY_L2_________________       LT(3,KC_A), LT(2,KC_S), LT(1,KC_D),    MT(MOD_LSFT, KC_F),    KC_G
-#define _________________QWERTY_L3_________________       MT(MOD_LSFT, KC_Z),    KC_X,    KC_C,    KC_V,                KC_B
+#define _________________QWERTY_L3_________________       LT(2, KC_Z),    KC_X,    KC_C,    KC_V,                KC_B
 
 #define _________________QWERTY_R1_________________       KC_Y,    KC_U,                KC_I,          KC_O,          KC_P
 #define _________________QWERTY_R2_________________       KC_H,    MT(MOD_LSFT, KC_J),  LT(1,KC_K),    LT(2,KC_L),    LT(3,KC_QUOT)
@@ -42,7 +42,7 @@
 
 #define _________________LOWER_R1__________________       ________________NUMBER_RIGHT_______________
 #define _________________LOWER_R2__________________       _______, KC_UNDS, KC_PLUS, KC_LCBR, KC_QUOT
-#define _________________LOWER_R3__________________       KC_RCBR, KC_NO, KC_NO, KC_NO, KC_PIPE
+#define _________________LOWER_R3__________________       KC_RCBR, KC_DOT, KC_NO, KC_NO, KC_PIPE
 
 #define _________________ACTION_L1_________________       ________________SYMBOL_LEFT________________
 #define _________________ACTION_L2_________________       RGB_VAI, RGB_HUI, RGB_SAI, RGB_MOD, RGB_VAI
