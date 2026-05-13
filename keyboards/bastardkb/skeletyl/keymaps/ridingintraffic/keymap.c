@@ -22,7 +22,7 @@
 
 #define _________________QWERTY_L1_________________       KC_Q,    KC_W,  KC_E,    KC_R,                KC_T
 #define _________________QWERTY_L2_________________       LT(3,KC_A), LT(2,KC_S), LT(1,KC_D),    MT(MOD_LSFT, KC_F),    KC_G
-#define _________________QWERTY_L3_________________       LT(2, KC_Z),    KC_X,    KC_C,    KC_V,                KC_B
+#define _________________QWERTY_L3_________________       MT(MOD_LSFT, KC_Z),    KC_X,    KC_C,    KC_V,                KC_B
 
 #define _________________QWERTY_R1_________________       KC_Y,    KC_U,                KC_I,          KC_O,          KC_P
 #define _________________QWERTY_R2_________________       KC_H,    MT(MOD_LSFT, KC_J),  LT(1,KC_K),    LT(2,KC_L),    LT(3,KC_QUOT)
@@ -58,7 +58,7 @@
 #define ________________SYMBOL_LEFT________________       KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC
 #define ________________SYMBOL_RIGHT_______________       KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN
 
-#define __THUMBS_3L__            LT(2, KC_UNDS), KC_LGUI, MT(MOD_MEH, KC_BSPC)
+#define __THUMBS_3L__            MT(MOD_LCTL, KC_UNDS), KC_LGUI, MT(MOD_MEH, KC_BSPC)
 #define __THUMBS_3R__            MT(MOD_MEH, KC_SPC), MT(MOD_HYPR, KC_ENT), MT(MOD_LSFT, KC_MINUS)
 
 #define __THUMBS_3L_RAISE__      KC_LCTL, KC_LALT, KC_DEL
